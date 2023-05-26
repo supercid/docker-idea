@@ -38,4 +38,4 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            mridang/jbstorm:latest
+            supercid/jbstorm:latest

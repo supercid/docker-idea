@@ -29,11 +29,11 @@ The project to be analysed must be a valid IDEA project. You are required to ver
 
 ### Inspecting a PHP project
 
-`docker run --volume=$(pwd):/app docker.pkg.github.com/mridang/docker-idea/phpstorm:2020.1.1 /app /app/.idea/inspectionProfiles/Project_Default.xml /app/output -d /app -v2`
+`docker run --volume=$(pwd):/app docker.pkg.github.com/supercid/docker-idea/phpstorm:2020.1.1 /app /app/.idea/inspectionProfiles/Project_Default.xml /app/output -d /app -v2`
 
 ### Inspecting a Java project
 
-`docker run --volume=$(pwd):/app docker.pkg.github.com/mridang/docker-idea/intellij:2018.1.1 /app /app/.idea/inspectionProfiles/Project_Default.xml /app/output -d /app -v2`
+`docker run --volume=$(pwd):/app docker.pkg.github.com/supercid/docker-idea/intellij:2018.1.1 /app /app/.idea/inspectionProfiles/Project_Default.xml /app/output -d /app -v2`
 
 Authors
 -------

@@ -3,7 +3,7 @@ version: '3'
 services:
   intellij:
     build: './intellij'
-    image: mridang/ijidea:latest
+    image: supercid/ijidea:latest
   phpstorm:
     build: './phpstorm'
-    image: mridang/jbstorm:latest
+    image: supercid/jbstorm:latest

@@ -38,4 +38,4 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            mridang/ijidea:latest
+            supercid/ijidea:latest
