@@ -14,3 +14,4 @@ docker tag ghcr.io/supercid/docker-idea/phpstorm:$IDEA_VERSION supercid/jbstorm:
 docker push supercid/jbstorm:$IDEA_VERSION
 
 docker tag supercid/jbstorm:$IDEA_VERSION supercid/jbstorm:latest
+docker push supercid/jbstorm:latest
